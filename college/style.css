@@ -1,0 +1,90 @@
+html{
+    background-color: #f0ebcf;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 0px auto;
+    padding: 7px;
+    height: 700px;
+    width: 500px;
+    border: 2px solid grey;
+    background: #d4d4d3;
+}
+
+h2{
+    text-align: center;
+    color: rgb(61, 60, 60);
+}
+
+input{
+    color: grey;
+    background-color: #f0ebcf;
+    border: solid #f0ebcf;
+    height: 40px;
+    font-size: 15px;
+    
+}
+
+.top_button{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    background: #f0ebcf;
+    border: grey solid;
+    box-shadow: 0px 0px 6px grey;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    transition-duration: 0.5s;
+
+}
+.top_button:hover {
+    background: grey;
+    color: #f0ebcf;
+    width: 201px;
+    transform: translate(1px, 1px);
+}
+.button:hover ,unclicked:hover ,.clicked:hover{
+    background: grey;
+    color: #f0ebcf;
+    transform: translate(1px, 1px);
+}
+.button{
+    color: grey;
+    background: #f0ebcf;
+    border: grey solid;
+    box-shadow: 0px 0px 6px grey;
+    border-radius: 3px;
+    width: 150px;
+    transition-duration: 0.5s;
+
+}
+.clicked{
+    color: #f0ebcf;
+    background:grey;
+    border: #f0ebcf solid;
+    box-shadow: 0 0 6px #f0ebcf;
+    border-radius: 3px;
+    width: 150px;
+}
+.unclicked{
+    color: grey;
+    background: #f0ebcf;
+    border: grey solid;
+    box-shadow: 0px 0px 6px grey;
+    border-radius: 3px;
+    width: 150px;
+}
+.results_header{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.results_body{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
